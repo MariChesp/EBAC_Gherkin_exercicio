@@ -17,10 +17,10 @@ Quando eu insirir "joaninha123" no campo de email
 Então deve aparecer mensagem de erro "Email invalido"
 
 Esquema do Cenário: Email com formato inválido
-Quando eu digitar <email invalido>
+Quando eu digitar <email>
 Então deve exibir <mensagem> de erro
 
-| Email         | Mensagem         |
+| email         | mensagem         |
 | "Joaninha123" | "Email invalido" |
 | "Joaozin"     | "Email invalido" |
 | "Jojo123"     | "Email invalido" |
